@@ -1,0 +1,25 @@
+Cost Report
+Insurance
+Payment Type
+Doctor
+Contracts
+Referral
+Patients
+Services
+Position
+Availibity
+Employees
+Service Types
+Inventory
+Service Log
+Schedule
+Appointment
+*Supplier
+	Provision - Weak
+	Specifics - Weak
+	Service Need - Weak
+	Provide - Weak
+	Payment Help - Weak
+	Pays - Weak
+
+Make weak identities identifying relationships

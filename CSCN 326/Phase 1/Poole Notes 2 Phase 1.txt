@@ -1,0 +1,27 @@
+Attributes
+	*QtyPurchased & Cost in Purchases
+	*Gender in patients
+	*Stipend in Visit instead of availibility
+	*Remove paymenttype in contracts
+
+
+Bridge between 
+	*contracts and service types
+	*between referrals and caretype
+	*inventory and service log (add quantity)
+	*paymenttype to contracts (Start and End date, keep in contracts)
+	*Employee and Employee Type (isDirect as attribute of bridge table)
+	*Referral Resources to Supplies and equipment
+	*Supplies and Equipment and Contract Services (services agreed to provide)
+	Any many to many would prefer a bridge table
+Merge 
+	*ServiceType into services
+	*Inventory into SuppliesAndEquipment
+	*Provisions into Purchases (not weak)
+Delete
+	*VisitEquipment
+	*Schedule
+
+Many to many identifying relationships are not possible
+
+*AnnualCostReport primary key not date (CostReportID)
